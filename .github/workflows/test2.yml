@@ -1,11 +1,11 @@
-name: "test"
+name: "test2"
 
 on: 
   pull_request:
 
 jobs:
     sample: 
-        name: test
+        name: test2
         runs-on: ubuntu-latest
         steps:
-        - run:  echo "test"
+        - run:  echo "test2"
